@@ -1,14 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<!DOCTYPE html>
+<html lang="en-us">
+ <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title> 
+    <title>Find Your Photo</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet"
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -16,39 +20,46 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
-  <body>
-    <nav class="navbar navbar-inverse">
-       <div class="container">
-        <ul class="nav nav-tabs">
-           <li role="presentation" class="active"><a href="#">Project Name</a></li>
-           <li role="presentation"><a href="#">A Link</a></li>
-           <li role="presentation"><a href="#">Another Link</a></li>
-          
-         </ul>
-      </div>
-    </nav>
-    
-    <div class="jumbotron">
-     <div class="container">
-      <h1>Hello, world!</h1>
-      <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
-    </div>
-  </div>
-    
-    
-    <div class ="a1">
-      <h2>Heading</h2>
-      <p>This is just some funny paragraph texts to keep you laughing. Unfortunately I don't have anything funny to say!</p>
-    <button type="button" class="btn btn-default btn-lg">
-    View Details
-    <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span> 
-    </button>
-    </div>
+ </head>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<body>
+ 
+ <div class=" nav navbar-fixed-top">
+  <div class="container">
+    <a class =" navbar-brand" href="/" ><img src="" alt="our logo">Your Logo</a>
+    <div class=" nav-collapse collapse navbar-responsive-collapse">
+     <ul class=" nav navbar-nav">
+           <li class="active">
+            <a href="#">ANIMALS</a>
+           </li>
+            <li>
+            <a href="#">NATURE</a>
+           </li>
+            <li>
+            <a href="#">PEOPLE</a>
+           </li>
+            <li>
+            <a href="#">SPACE</a>
+           </li>
+            <li>
+            <a href="#">FAVORITES</a>
+           </li>
+           <li>
+            <a href="#"> GIFT IT</a>
+           </li>
+          </ul><!--navbar contents-->
+          <form class="navbar-form">
+            <input type ="text" class="form-control" placeholder="Search">
+            <button type="button" class="btn btn-danger"><span class="glyphicon glyphicon-search" id="searchInput"></span> </button>
+          </form>
+    </div>
+  </div><!--end of container-->
+ </div> <!--end of navbarr-->
+   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+    <script src="js/bootstrap.min.js"></script> 
+</body>
+  
+  
 </html>
